@@ -73,6 +73,9 @@ to the percentage output set to the light, to try to minimize these behaviors yo
 tweak the values ``min_power`` from this output component and also ``gamma_correct`` from
 the monochromatic light.
 
+Note: The ESP8266 supports interrupts in any GPIO, except GPIO16. GPIO16 can't by used
+as zero_cross_pin.
+
 See Also
 --------
 
